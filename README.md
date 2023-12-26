@@ -1,4 +1,4 @@
-# PuppeteerConnect
+# ScraperCookieCloud
 
 Testing using Browserless (well Selenium) and Cookiecloud for web scraping.
 
@@ -32,4 +32,4 @@ The plugin isn't in English which makes configuring it a challenge. Heres a tran
 * `User Key` = `PYCOOKIE_UUID`
 * `End-to-end Encryption Password` = `PYCOOKIE_PASSWORD`
 
-![](static/267883323-4d5e626a-ef93-4315-a8f4-256d699cf90c.png)[]
+![](static/267883323-4d5e626a-ef93-4315-a8f4-256d699cf90c.png)
