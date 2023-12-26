@@ -42,4 +42,4 @@ To run the flask app:
 `python3 -m flask run --host=0.0.0.0`
 
 Then to grab the source and a long screen shot of a page:
-`http://192.168.0.116:5000/run?url=https://github.com`
+`http://127.0.0.1:5000/run?url=https://github.com`
