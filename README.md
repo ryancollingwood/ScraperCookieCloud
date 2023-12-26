@@ -11,6 +11,8 @@ Testing using Browserless (well Selenium) and Cookiecloud for web scraping.
 * CookieCloud: 
     * Server: https://github.com/easychen/CookieCloud
     * Chrome Plugin: https://chromewebstore.google.com/detail/cookiecloud/ffjiejobkoibkjlhjnlgmcnnigeelbdl
+* PyCookieCloud:
+    * Python wrapeer for interacting with CookieCloud server: https://github.com/lupohan44/PyCookieCloud
 
 I've setup both as "apps" in Unraid
 
@@ -33,3 +35,11 @@ The plugin isn't in English which makes configuring it a challenge. Heres a tran
 * `End-to-end Encryption Password` = `PYCOOKIE_PASSWORD`
 
 ![](static/267883323-4d5e626a-ef93-4315-a8f4-256d699cf90c.png)
+
+## Running
+
+To run the flask app:
+`python3 -m flask run --host=0.0.0.0`
+
+Then to grab the source and a long screen shot of a page:
+`http://192.168.0.116:5000/run?url=https://github.com`
