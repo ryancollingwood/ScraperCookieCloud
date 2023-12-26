@@ -1,0 +1,8 @@
+selenium>=4.16.0
+selenium-wire>=5.1.0
+python-slugify>=8.0.1
+PyCookieCloud>=1.0.3
+Selenium-Screenshot>=2.1.0
+loguru>=0.7.2
+python-dotenv>=1.0.0
+Flask>=3.0.0
