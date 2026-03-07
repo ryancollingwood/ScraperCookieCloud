@@ -233,7 +233,7 @@ def setup_logger():
     )
     logging.add(
         "errors.log",
-        format="{time:YYYY-MM-DD HH:mm:ss}\t{level}\t{file}\t{function}\{line}\t{message}",
+        format="{time:YYYY-MM-DD HH:mm:ss}\t{level}\t{file}\t{function}\\{line}\t{message}",
         backtrace=True,
         diagnose=True,
         serialize=True,
