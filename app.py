@@ -18,6 +18,8 @@ def run_endpoint():
         url = 'https://' + url
 
     result = run(url)
+    if result is None:
+        return 'Error: execution failed', 500
     return result
 
 if __name__ == '__main__':
